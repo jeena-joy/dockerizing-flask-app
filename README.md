@@ -1,6 +1,7 @@
 ### dockerizing-flask-app
 Running Flask application inside alpine Container using docker compose
 
+
 ```sh
 # tree .
 .
@@ -10,6 +11,8 @@ Running Flask application inside alpine Container using docker compose
 ├── docker-compose.yml
 └── Dockerfile
 ```
+
+
 
 
 ```sh
@@ -23,6 +26,9 @@ Successfully tagged apps_web:latest
 WARNING: Image for service web was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.
 Creating apps_web_1 ... done
 ```
+
+
+
 
 
 
