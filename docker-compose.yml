@@ -1,0 +1,18 @@
+---
+version: "3"
+
+services:
+  web:
+    build: .
+    volumes:
+      - myvolumes:/usr/src/apps
+    networks:
+      - mynet
+    ports:
+      - "5000:5000"
+
+volumes:
+  myvolumes:
+
+networks:
+  mynet:
