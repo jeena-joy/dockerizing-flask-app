@@ -1,4 +1,4 @@
-### dockerizing-flask-app
+### Dockerizing-flask-app
 Running Flask application inside alpine Container using docker compose
 
 
