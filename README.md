@@ -3,14 +3,13 @@ Running Flask application inside alpine Container using docker compose
 
 ```sh
 # tree .
-# tree .
 .
 ├── apps
 │   ├── app.py
 │   └── requirements.txt
 ├── docker-compose.yml
 └── Dockerfile
-
+```
 
 
 ```sh
